@@ -6,16 +6,9 @@ This project lets you visualize what a perceptron does. It is interactive and pr
 Language: Swift
 
 
-Xcode 6 Project:
+Files
 -----
-Perceptron/Perceptron.xcodeproj
-
-Source Code
------------
-Perceptron/Perceptron/
-
-
-Command Line Version Source Code
--------
-Perceptron/Perceptron/perceptronCLI.swift
+Xcode 6 Project: Perceptron/Perceptron.xcodeproj
+Source Code: Perceptron/Perceptron/
+CLI Version: Perceptron/Perceptron/perceptronCLI.swift
 
