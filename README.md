@@ -17,10 +17,9 @@ Swift
 Perceptron/Perceptron/perceptronCLI.swift
 
 
-
-[exm]: https:github.com/vincenzorm117/Perceptron-Visualization/Perceptron/Previews/workingExample.png
-[and]: https:github.com/vincenzorm117/Perceptron-Visualization/Perceptron/Previews/andExample.png
-[xor]: https:github.com/vincenzorm117/Perceptron-Visualization/Perceptron/Previews/xorExample.png
+[exm]: https://github.com/vincenzorm117/Perceptron-Visualization/blob/master/Perceptron/Previews/workingExample.png
+[and]: https://github.com/vincenzorm117/Perceptron-Visualization/blob/master/Perceptron/Previews/andExample.png
+[xor]: https://github.com/vincenzorm117/Perceptron-Visualization/blob/master/Perceptron/Previews/xorExample.png
 
 ### How to use the GUI
 - The examples drop down menu on the right contians some prebuilt examples. Selecting one will load the points on to the graph.
