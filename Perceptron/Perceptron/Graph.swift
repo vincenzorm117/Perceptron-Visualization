@@ -210,8 +210,7 @@ class Graph: NSView {
         
         // Draw Points
 
-        NSColor.knobColor().setStroke()
-//        NSColor.redColor().setStroke()
+        NSColor.redColor().setStroke()
         for (x,y) in teamRed {
             cross = NSBezierPath()
             cross.lineWidth = 3
@@ -228,7 +227,7 @@ class Graph: NSView {
         
         
         
-        NSColor.redColor().setStroke()
+        NSColor.blueColor().setStroke()
         for (x,y) in teamBlue {
             cross = NSBezierPath()
             cross.lineWidth = 3
