@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3B52881A9034B700FE465C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B52871A9034B700FE465C /* AppDelegate.swift */; };
+		4D3B528A1A9034B700FE465C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B52891A9034B700FE465C /* ViewController.swift */; };
+		4D3B528C1A9034B800FE465C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3B528B1A9034B800FE465C /* Images.xcassets */; };
+		4D3B528F1A9034B800FE465C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3B528D1A9034B800FE465C /* Main.storyboard */; };
+		4D3B52AB1A9040C300FE465C /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B52AA1A9040C300FE465C /* Graph.swift */; };
+		4D3B52AD1A90440A00FE465C /* Perceptron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B52AC1A90440A00FE465C /* Perceptron.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D3B52951A9034B800FE465C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3B527A1A9034B700FE465C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3B52811A9034B700FE465C;
+			remoteInfo = Perceptron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D3B52821A9034B700FE465C /* Perceptron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perceptron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3B52861A9034B700FE465C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3B52871A9034B700FE465C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D3B52891A9034B700FE465C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D3B528B1A9034B800FE465C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D3B528E1A9034B800FE465C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D3B52941A9034B800FE465C /* PerceptronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerceptronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3B52AA1A9040C300FE465C /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		4D3B52AC1A90440A00FE465C /* Perceptron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Perceptron.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D3B527F1A9034B700FE465C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3B52911A9034B800FE465C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3B52791A9034B700FE465C = {
+			isa = PBXGroup;
+			children = (
+				4D3B52841A9034B700FE465C /* Perceptron */,
+				4D3B52831A9034B700FE465C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D3B52831A9034B700FE465C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3B52821A9034B700FE465C /* Perceptron.app */,
+				4D3B52941A9034B800FE465C /* PerceptronTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3B52841A9034B700FE465C /* Perceptron */ = {
+			isa = PBXGroup;
+			children = (
+				4D3B52871A9034B700FE465C /* AppDelegate.swift */,
+				4D3B52891A9034B700FE465C /* ViewController.swift */,
+				4D3B52AC1A90440A00FE465C /* Perceptron.swift */,
+				4D3B52AA1A9040C300FE465C /* Graph.swift */,
+				4D3B528D1A9034B800FE465C /* Main.storyboard */,
+				4D3B528B1A9034B800FE465C /* Images.xcassets */,
+				4D3B52851A9034B700FE465C /* Supporting Files */,
+			);
+			path = Perceptron;
+			sourceTree = "<group>";
+		};
+		4D3B52851A9034B700FE465C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D3B52861A9034B700FE465C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D3B52811A9034B700FE465C /* Perceptron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3B529E1A9034B800FE465C /* Build configuration list for PBXNativeTarget "Perceptron" */;
+			buildPhases = (
+				4D3B527E1A9034B700FE465C /* Sources */,
+				4D3B527F1A9034B700FE465C /* Frameworks */,
+				4D3B52801A9034B700FE465C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Perceptron;
+			productName = Perceptron;
+			productReference = 4D3B52821A9034B700FE465C /* Perceptron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D3B52931A9034B800FE465C /* PerceptronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3B52A11A9034B800FE465C /* Build configuration list for PBXNativeTarget "PerceptronTests" */;
+			buildPhases = (
+				4D3B52901A9034B800FE465C /* Sources */,
+				4D3B52911A9034B800FE465C /* Frameworks */,
+				4D3B52921A9034B800FE465C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3B52961A9034B800FE465C /* PBXTargetDependency */,
+			);
+			name = PerceptronTests;
+			productName = PerceptronTests;
+			productReference = 4D3B52941A9034B800FE465C /* PerceptronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D3B527A1A9034B700FE465C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Vincenzo;
+				TargetAttributes = {
+					4D3B52811A9034B700FE465C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4D3B52931A9034B800FE465C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4D3B52811A9034B700FE465C;
+					};
+				};
+			};
+			buildConfigurationList = 4D3B527D1A9034B700FE465C /* Build configuration list for PBXProject "Perceptron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D3B52791A9034B700FE465C;
+			productRefGroup = 4D3B52831A9034B700FE465C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3B52811A9034B700FE465C /* Perceptron */,
+				4D3B52931A9034B800FE465C /* PerceptronTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D3B52801A9034B700FE465C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3B528C1A9034B800FE465C /* Images.xcassets in Resources */,
+				4D3B528F1A9034B800FE465C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3B52921A9034B800FE465C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3B527E1A9034B700FE465C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3B52AB1A9040C300FE465C /* Graph.swift in Sources */,
+				4D3B52AD1A90440A00FE465C /* Perceptron.swift in Sources */,
+				4D3B528A1A9034B700FE465C /* ViewController.swift in Sources */,
+				4D3B52881A9034B700FE465C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3B52901A9034B800FE465C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D3B52961A9034B800FE465C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3B52811A9034B700FE465C /* Perceptron */;
+			targetProxy = 4D3B52951A9034B800FE465C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D3B528D1A9034B800FE465C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3B528E1A9034B800FE465C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D3B529C1A9034B800FE465C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D3B529D1A9034B800FE465C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D3B529F1A9034B800FE465C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Perceptron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D3B52A01A9034B800FE465C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Perceptron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D3B52A21A9034B800FE465C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PerceptronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perceptron.app/Contents/MacOS/Perceptron";
+			};
+			name = Debug;
+		};
+		4D3B52A31A9034B800FE465C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PerceptronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perceptron.app/Contents/MacOS/Perceptron";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3B527D1A9034B700FE465C /* Build configuration list for PBXProject "Perceptron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3B529C1A9034B800FE465C /* Debug */,
+				4D3B529D1A9034B800FE465C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3B529E1A9034B800FE465C /* Build configuration list for PBXNativeTarget "Perceptron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3B529F1A9034B800FE465C /* Debug */,
+				4D3B52A01A9034B800FE465C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3B52A11A9034B800FE465C /* Build configuration list for PBXNativeTarget "PerceptronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3B52A21A9034B800FE465C /* Debug */,
+				4D3B52A31A9034B800FE465C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D3B527A1A9034B700FE465C /* Project object */;
+}
