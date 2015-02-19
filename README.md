@@ -9,6 +9,8 @@ Language: Swift
 Files
 -----
 Xcode 6 Project: Perceptron/Perceptron.xcodeproj
+
 Source Code: Perceptron/Perceptron/
+
 CLI Version: Perceptron/Perceptron/perceptronCLI.swift
 
