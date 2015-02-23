@@ -21,6 +21,9 @@ Perceptron/Perceptron/perceptronCLI.swift
 [and]: https://github.com/vincenzorm117/Perceptron-Visualization/blob/master/Perceptron/Previews/andExample.png
 [xor]: https://github.com/vincenzorm117/Perceptron-Visualization/blob/master/Perceptron/Previews/xorExample.png
 
+#### Guide on Perceptrons:
+See PDF: perceptrons.pdf
+
 ### How to use the GUI
 - The examples drop down menu on the right contians some prebuilt examples. Selecting one will load the points on to the graph.
 - The slider controls how fast the perceptrons take steps in learning. The slider can go from 0 to 1.
